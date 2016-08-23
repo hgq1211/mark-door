@@ -1,0 +1,82 @@
+@charset "gb2312";
+/* main css */
+
+.about{overflow: hidden; line-height:22px; padding:20px }
+.about h2{ font-size:18px;margin-bottom:10px; font-weight:bold}
+.about p,.about_c p{ margin-bottom:10px}
+.about_c,.about{margin:20px 0}
+.about_c{ padding:20px 0 0 10px; color:#666; background:url(../images/h_line.jpg) repeat-x; }
+.about_c img{ margin:5px 0}
+.about_c span{ color:#19A566}
+a.blog_link{ color:#1CA368; margin:0 3px}
+
+
+.rnav { width:100%; overflow:hidden; margin:10px 0}
+
+.rnav li { width:25%; text-align: center; display: inline-block;  float: left; height: 40px; line-height: 38px;}
+.rnav li a{ color: #FFF; display: block; }
+.rnav1 { background: #FE5187 }
+.rnav2 { background: #339967 }
+.rnav3 { background: #FF8151 }
+.rnav4 { background: #66CC9A }
+.rnav5 { background: #F6C }
+
+
+
+.newblog { overflow: hidden;  border-right: 3px solid #5EA51B;}
+.newblog h2 { color: #333; font-size: 14px; margin: 20px 0 5px 0; clear:both; font-weight:bold; }
+p.dateview { margin-bottom: 10px }
+p.dateview span { margin: 0 5px 0 0 }
+p.dateview span a { color: #63B120 }
+figure{ clear:both}
+.newblog figure img {border: #EAE6E7 1px solid; padding: 4px; max-width:460px; margin: auto }
+.nlist { line-height:1.9; padding:10px; overflow:hidden }
+a.readmore { background: #f90; color: #fff; padding: 5px 10px; float: right; margin: 20px 0 0 0 }
+.line { overflow: hidden; width: 100%; height: 20px; border-bottom: 1px dashed #ccc; }
+
+.page{ margin:20px 0 0 0; text-align:center; width:100%;overflow: hidden;}
+.page a b {color: #999;}
+.page>b,.page a {margin: 0 2px;height: 26px;line-height: 26px;border-radius: 50%;width: 26px;text-align: center;display: inline-block}
+.page a {margin: 0 2px;height: 26px;line-height: 26px;border-radius: 50%;width: 26px;text-align: center;display: inline-block}/* Õë¶ÔIE6 */
+.page>b,.page a:hover{background: #333;color: #FFF;}
+.page a {color: #F33;border: #999 1px solid;}
+
+
+
+.bloglist {  overflow: hidden; border-right:#5EA51B 3px solid }
+.arrow_box { background: #f8f8f8; box-shadow: 0px 1px 0px rgba(255,255,255,.1), inset 0px 1px 1px rgba(214, 214, 214, 0.7); width: 100%; border-radius: 6px; padding: 20px 0; margin: 20px 0; overflow:hidden }
+.arrow_box img { width: 150px; float: left; margin: 0 20px 0 20px; }
+.arrow_box p { line-height: 24px; padding: 0 20px 20px }
+.sy{ overflow:hidden}
+.dateview {background: #5EA51B; border-radius: 0px 40px; text-align: center; color: #fff ; float:right; padding:10px}
+
+
+.caselist {ssoverflow: hidden; margin: 10px 0 }
+.caselist ul img { width: 140px; height: 140px; border: #EAE6E7 1px solid; padding: 4px; border-radius: 0% 0% 30% 0%; }
+.caselist ul li { display: inline-block; margin: 10px 16px; float: left; position: relative }
+.caselist ul li:before { content: ''; width: 25px; height: 20px; position: absolute; bottom: 0; right: 0; border-radius: 0 0 30px 0; box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.4); -webkit-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px); -moz-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px); -o-transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px); transform: rotate(-20deg) skew(-40deg, -3deg) translate(-13px, -13px); }
+
+
+.c_titile { font-size: 22px; margin: 20px 0; text-align: center;color: #333; }
+.box_c { border: #ccc 1px dashed; text-align: center; padding: 5px 0;color: #999;}
+.box_c span { margin: 0 10px; }
+.box_c span a{color: #099;}
+ul.infos { overflow: hidden; margin: 20px; line-height: 28px; font-size: 14px; text-indent: 2em;color:#666 }
+ul.infos p { margin-bottom: 5px }
+ul.infos p img { display: block; margin: auto;max-width:300px }
+.keybq { background: url(../images/6264.png) no-repeat 10px center #F8F8F8; line-height: 30px; height: 30px; padding-left: 40px; border: 1px solid #F0F0F0; margin-right: 20px; }
+.keybq span { color: #099 }
+.nextinfo { line-height: 24px; }
+.otherlink h2 { border-bottom: #099 2px solid; line-height: 40px; font-size: 12px; font-weight: normal; margin-right: 20px; background:url(../images/5794.png) 10px center no-repeat; padding-left:40px}
+.otherlink ul { margin: 10px 0 }
+.otherlink li { line-height: 24px; height: 24px; display: block; width: 290px; float: left; overflow: hidden; margin-right: 30px; }
+.otherlink li a:hover{ text-decoration:underline}
+
+
+.infops{ margin:0 0 20px 0}
+.infops p{ line-height:24px;}
+.bt-blue{ background: url(../images/5817.png) no-repeat 20px center #47A9FF; padding:5px 10px 5px 20px; width:90px; text-align:center; line-height:40px; font-weight:bold; margin-bottom:10px}
+.bt-blue a{ color:#fff;}
+.ps{ color:#F00}
+
+

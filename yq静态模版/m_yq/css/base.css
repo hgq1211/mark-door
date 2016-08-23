@@ -1,0 +1,26 @@
+@charset "gb2312";
+/* 共用css */
+* { margin: 0; padding: 0 }
+body { font: 12px/1.5 'Microsoft Yahei', 'Simsun'; color: #666666; background: #fff }
+img { border: 0; display: block }
+ul { list-style: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: normal; }
+a { outline: none; }
+a:link, a:visited { text-decoration: none; color: #666 }
+a:hover { text-decoration: none; }
+.clear { clear: both; }
+.blank { height: 5px; overflow: hidden; width: 100%; margin: auto; clear: both }
+/* 头部信息 */
+header { width: 100%; clear: both; text-align: center }
+.logo img { margin: auto }
+.menu { overflow: hidden; text-align: center; line-height: 16px; background: #5EA51B; }
+.menu ul { text-align: center }
+.menu ul li { display: inline-block; float: left; line-height: 16px; text-align: center; position: relative; width: 25%; }
+.menu ul li a { color: #fff; text-decoration: none; display: block; line-height: 16px; height: 16px; font-size: 15px; padding: 10px 0; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.menu ul li::before { content: "|"; position: absolute; right: 0; color: #fff; font-size: 16px; font-weight: 400; top: 10px; }
+.ellipsis { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+
+
+
+
+footer{ text-align:center; background:#f1f1f1; padding:20px 0}

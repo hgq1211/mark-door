@@ -1,0 +1,46 @@
+@charset "gb2312";
+.template { width: 100%; overflow: hidden; background: #F1F0EE }
+.template h3 { border-bottom: #FFF 1px solid; width: 100%; overflow: hidden; font-size: 14px; margin: 0 0 10px; font-family: "Î¢ÈíÑÅºÚ"; display: block; clear: both; }
+.template h3 p { background: #474645; width: 180px; height: 25px; margin: 15px 0 0 10px; line-height: 25px; color: #fff; text-align: center; box-shadow: #999 4px 5px 1px; }
+.template h3 p span { color: #38b3d4; }
+.template ul { overflow: hidden; text-align: center }
+.template ul li { width: 50%; display: block; background: #399; margin-bottom: 10px; overflow: hidden; float: left; padding: 10px 0; position: relative }
+.template ul li::before { position: absolute; content: ""; width: 0; overflow: hidden; border-right: 1px dotted rgba(255,255,255,.36); display: block; overflow: hidden; top: 25%; right: 0; height: 100px; margin-top: -8px; }
+.template li img { margin: auto; height: 110px; display: block; margin-bottom: 10px }
+.template li span { display: block; margin-top: 5px; overflow: hidden; text-overflow: ellipsis; height: 14px; color: #FFF }
+.title_tj { overflow: hidden; }
+.title_tj ul { margin: 10px; width: 100%; overflow: hidden; }
+.title_tj ul h2 { font-size: 14px; font-weight: bold; }
+h2.title_tj { font: 18px "Î¢ÈíÑÅºÚ", Arial, Helvetica, sans-serif; color: #444; font-weight: bold; background: url(../images/h_line.jpg) repeat-x 20px center; }
+h2.title_tj span { color: #FE5187 }
+h2.title_tj p { background: #fff; width: 90px }
+a.readmore { background: #fd8a61; color: #fff; padding:5px; float:right }
+.dateview span { margin: 0 5px; }
+.dateview span a { color: #093; }
+.dateview { background: #fff; overflow:hidden; clear:both;  margin: 10px 0 0 0; display: inline-block; color: #838383; background: #f6f6f6 ;width:100% }
+.bloglist h3 { margin: 20px 0 10px 0; color: #333; font-weight:bold; font-size:14px; clear:both; padding-left:10px }
+.bloglist h3:first-child a { color: #f00; background: url(/skin/blog/images/new.gif) no-repeat 330px; display: block; }
+.bloglist figure { width:100%; overflow:hidden}
+.bloglist figure img { padding: 4px; border: #f4f2f2 1px solid; margin:auto; max-width:460px }
+.bloglist ul { float: left; margin: 10px 0px 0 15px; line-height: 20px; }
+
+.news{ padding:10px}
+.news h3 { font-size: 14px; background: url(../images/r_title_bg.jpg) repeat-x center; }
+.news h3 p { background: #fff; width: 70px }
+.news h3 span { color: #65b020 }
+.news h3.ph span { color: #37ccca; }
+.news h3.links span { color: #F17B6B; }
+.news ul{ margin-bottom:20px}
+.news ul li a:hover { text-decoration: underline }
+.rank li { height: 25px; line-height: 25px; clear: both; padding-left: 5px; overflow: hidden; padding-left: 15px; background: url(../images/li.jpg) no-repeat left center; }
+.rank { margin: 10px 0 }
+.rank li a { color: #333; }
+.rank li:first-child a {color: #f00;display: block;}
+.paih { background: url(../images/ph.jpg) no-repeat left 8px; margin: 10px 0 }
+.paih li { line-height: 30px; height: 30px; overflow: hidden; padding-left: 24px; border-bottom: #CCC dotted 1px; }
+.website { margin: 10px 0; background: #F3F3F3; border-radius: 50%; text-align: center; }
+.website li { line-height: 26px; text-shadow: #fff 1px 1px 1px; height: 26px; }
+.weixin { height: 274px; overflow: hidden; clear: both }
+.weixin img{ margin:auto}
+.guanzhu {overflow: hidden; width:100%; margin:auto; text-align:center}
+.guanzhu span{color: #65B020;font-weight: bold;font-size: 14px;}
